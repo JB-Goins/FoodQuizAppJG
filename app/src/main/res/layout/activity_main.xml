@@ -15,6 +15,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="True"
+        android:textColor="@color/green"
+        android:backgroundTint="@color/black"
         android:id="@+id/trueBTN"
         />
     <Button
@@ -22,12 +24,15 @@
         android:layout_height="wrap_content"
         android:text="False"
         android:textColor="@color/orange"
+        android:backgroundTint="@color/black"
         android:id="@+id/falseBTN"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Done"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
         android:id="@+id/doneBTN"
 
         />
