@@ -30,10 +30,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Done"
+        android:text="Next"
         android:backgroundTint="@color/green"
         android:textColor="@color/black"
-        android:id="@+id/doneBTN"
+        android:id="@+id/nextBTN"
 
         />
 
