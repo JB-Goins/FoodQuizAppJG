@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (currentQ.getCorrectAns() == true){
-                    toastMsg = "wrong answer";
+                    toastMsg = "Wrong answer";
                 }else{
                     toastMsg = "Right  answer";
                     score++;
