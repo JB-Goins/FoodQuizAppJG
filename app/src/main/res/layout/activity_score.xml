@@ -5,6 +5,12 @@
     android:gravity="center"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Type your name here "
+        android:id="@+id/nameET"
+        android:textSize="34sp" />
     <TextView
         android:layout_width = "wrap_content"
         android:layout_height = "wrap_content"
@@ -13,6 +19,12 @@
         android:text="0"
         android:textSize="50dp"
         android:id="@+id/scoreTV"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send to HighScores"
+        android:textSize="34sp"
+        android:id="@+id/shsBTN" />
 
 
 

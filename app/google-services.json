@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "851456993048",
+    "firebase_url": "https://foodquizjg-default-rtdb.firebaseio.com",
+    "project_id": "foodquizjg",
+    "storage_bucket": "foodquizjg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851456993048:android:ea89734df86aa77e23a06d",
+        "android_client_info": {
+          "package_name": "org.baltimorecityschools.foodquizappjg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS9TD0qvmD-HKKIHTMYlqdQGpV8JjHcLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

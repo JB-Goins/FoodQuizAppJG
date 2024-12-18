@@ -2,11 +2,16 @@ package org.baltimorecityschools.foodquizappjg;
 
 public class HighScoresEntry {
     private String name;
-    private int scores;
+    private int score;
 
-    public HighScoresEntry(String name, int scores) {
+
+    public HighScoresEntry(String name, int score) {
         this.name = name;
-        this.scores = scores;
+        this.score = score;
+    }
+    public HighScoresEntry(){
+        name = "";
+        score = 0;
     }
 
     public String getName() {
@@ -14,15 +19,22 @@ public class HighScoresEntry {
     }
 
     public int getScores() {
-        return scores;
+        return score;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setScores(int scores) {
-        this.scores = scores;
+    public void setScores(int score) {
+        this.score = score;
     }
-    
+
+    @Override
+    public String toString() {
+        return "HighScoresEntry{" +
+                "name='" + name + '\'' +
+                ", scores=" + score +
+                '}';
+    }
 }
