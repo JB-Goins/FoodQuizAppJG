@@ -26,7 +26,7 @@ public class HighSEActivity extends AppCompatActivity {
     DatabaseReference myRef;
     public static final String TAG = "AHHHHHH";
     ArrayList<HighScoresEntry> HSEntrties;
-    HighScoresEntry lola;
+    HighScoresEntry lola, benny, sarah;
     String hseName;
     int hseScore;
 
@@ -57,6 +57,15 @@ public class HighSEActivity extends AppCompatActivity {
                 hseScore = lola.getScores();
                 hseName = lola.getName();
                 p1TV.setText(hseName + ":  " + hseScore);
+                benny = HSEntrties.get(1);
+                hseScore = benny.getScores();
+                hseName = benny.getName();
+                p2TV.setText(hseName + ":  " + hseScore);
+                sarah = HSEntrties.get(2);
+                hseScore = sarah.getScores();
+                hseName = sarah.getName();
+                p3TV.setText(hseName + ":  " + hseScore);
+
 
 
             }
