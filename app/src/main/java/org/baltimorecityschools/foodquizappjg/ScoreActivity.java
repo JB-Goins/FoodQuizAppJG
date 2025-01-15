@@ -21,7 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class ScoreActivity extends AppCompatActivity {
     TextView scoreTv;
-    Button shsBTN;
+    Button shsBTN,resetBTN;
     EditText nameET;
     String name;
     int score;
@@ -29,6 +29,7 @@ public class ScoreActivity extends AppCompatActivity {
     Intent gotoHSA;
     FirebaseDatabase database;
     DatabaseReference myRef;
+    Intent returnToTheBIntent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,7 @@ public class ScoreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_score);
 
         scoreTv = findViewById(R.id.scoreTV);
+        resetBTN = findViewById(R.id.resetBTN);
         shsBTN = findViewById(R.id.shsBTN);
         nameET = findViewById(R.id.nameET);
         score = 0;
@@ -44,6 +46,7 @@ public class ScoreActivity extends AppCompatActivity {
         scoreTv.setText("" + score);
         database = FirebaseDatabase.getInstance();
         myRef = database.getReference("message");
+
 
 
         shsBTN.setOnClickListener(new View.OnClickListener() {
@@ -56,6 +59,14 @@ public class ScoreActivity extends AppCompatActivity {
                 gotoHSA = new Intent(ScoreActivity.this, HighSEActivity.class);
                 startActivity(gotoHSA);
 
+            }
+        });
+
+        resetBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                returnToTheBIntent = new Intent(ScoreActivity.this, MainActivity.class);
+                startActivity(returnToTheBIntent);
             }
         });
 
