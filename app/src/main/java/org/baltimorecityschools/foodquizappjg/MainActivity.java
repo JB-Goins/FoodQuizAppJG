@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         falseBTN = findViewById(R.id.falseBTN);
         nextBTN = findViewById(R.id.nextBTN);
         toastMsg = "Wrong answer";
-        q1 = new Question("is mac and cheese a pasta", true);
+        q1 = new Question("Is mac and cheese a pasta?", true);
         q2 = new Question("Yams and sweet potatoes are the same?", false);
         q3 = new Question("Casu marzu is an illegal cheese made from sheep’s milk?", true);
         q4 = new Question("French Fries were made in Greece?", false);

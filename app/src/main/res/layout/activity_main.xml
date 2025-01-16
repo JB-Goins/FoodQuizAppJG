@@ -3,18 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fqa3_"
+
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:id="@+id/QuestionTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="is mac and cheese a pasta"
-        android:textSize="20dp" />
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:text="Is mac and cheese a pasta?"
+        android:textSize="40dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="True"
+        android:textSize="50sp"
         android:textColor="@color/green"
         android:backgroundTint="@color/black"
         android:id="@+id/trueBTN"
@@ -23,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="False"
+        android:textSize="50sp"
         android:textColor="@color/orange"
         android:backgroundTint="@color/black"
         android:id="@+id/falseBTN"
@@ -31,16 +37,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
+        android:textSize="50sp"
         android:backgroundTint="@color/green"
         android:textColor="@color/black"
         android:id="@+id/nextBTN"
-
         />
 
 
 
 
-
-   </LinearLayout>
+</LinearLayout>
 
 

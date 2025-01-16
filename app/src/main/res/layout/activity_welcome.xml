@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/shadow"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Hello Player: "
+     android:textSize="45sp"
+     android:textStyle="bold"
+     android:textColor="@color/black"
+     />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="type yourname here"
+        android:textSize="25sp"
+        android:id="@+id/typenameET"
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Next"
+    android:orientation="horizontal"
+    android:textSize="50sp"
+    android:backgroundTint="@color/green"
+    android:textColor="@color/black"
+    android:id="@+id/next2BTN"
+        />
+
+
+
+
+</LinearLayout>

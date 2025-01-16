@@ -3,12 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/black"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="player 1: "
+        android:textColor="@color/white"
         android:textSize="34sp"
         android:id="@+id/p1TV"
         />
@@ -16,6 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Player 2: "
+        android:textColor="@color/white"
         android:textSize="34sp"
         android:id="@+id/p2TV" />
     <TextView
@@ -23,7 +26,11 @@
         android:layout_height="wrap_content"
         android:textSize="34sp"
         android:text="Player 3: "
+        android:textColor="@color/white"
         android:id="@+id/p3TV"
         />
+
+
+
 
 </LinearLayout>
